@@ -1,0 +1,122 @@
+#header-bar {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: #dddddd solid 2px;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #dddddd;
+}
+
+.title {
+    float: left;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 28px 20px 28px 20px;
+}
+
+.nav {
+    float: right;
+    padding: 32px 20px 32px 20px;
+}
+
+li {
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#content {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 400px;
+    overflow: scroll;
+}
+
+h2 {
+    padding: 20px 0px ;
+    border-bottom: solid 2px #dddddd;
+}
+
+.abtimg {
+    float: left;
+    height: 200px;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.portimg {
+    height: 200px;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+form  {
+    padding-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 8px;
+}
+
+h1, h2, h3, h4  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+h4 {
+    color: black;
+    background-color: #4aaaa5;
+    padding: 5px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #666666;
+    padding-top: 30px;
+    border-top: 8px solid #4aaaa5;
+    font-size: 16px;
+}
+
