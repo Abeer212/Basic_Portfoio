@@ -6,29 +6,21 @@
 }
 
 body {
-    /* width: 960px; */
-    width: 100%;
+    width: 960px;
     margin: 0 auto;
     background-color: #dddddd;
 }
 
 .title {
-    /* float: left; */
-    position: absolute;
-    left: 232px;
-    width: 100px;
+    float: left;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 16px 36px 16px 36px;
+    padding: 28px 20px 28px 20px;
 }
 
 .nav {
-    /* float: right; */
-    position: absolute;
-    right: 232px;
+    float: right;
     padding: 32px 20px 32px 20px;
-    /* added border */
-    border: solid 1px;
 }
 
 li {
@@ -40,11 +32,9 @@ li {
 
 #content {
     background-color: #ffffff;
-    margin: 0 auto;
-    width: 960px;
     margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 400px;
     overflow: scroll;
 }
@@ -85,7 +75,8 @@ form  {
 
 input {
     width: 100%;
-    padding: 10px 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1, h2, h3, h4  {
@@ -130,3 +121,8 @@ footer {
     font-size: 16px;
 }
 
+.submt {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: black; 
+}
