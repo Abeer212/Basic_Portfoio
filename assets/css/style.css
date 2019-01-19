@@ -6,21 +6,29 @@
 }
 
 body {
-    width: 960px;
+    /* width: 960px; */
+    width: 100%;
     margin: 0 auto;
     background-color: #dddddd;
 }
 
 .title {
-    float: left;
+    /* float: left; */
+    position: absolute;
+    left: 232px;
+    width: 100px;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 28px 20px 28px 20px;
+    padding: 16px 36px 16px 36px;
 }
 
 .nav {
-    float: right;
+    /* float: right; */
+    position: absolute;
+    right: 232px;
     padding: 32px 20px 32px 20px;
+    /* added border */
+    border: solid 1px;
 }
 
 li {
@@ -32,15 +40,17 @@ li {
 
 #content {
     background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 400px;
     overflow: scroll;
 }
 
 h2 {
-    padding: 20px 0px ;
+    padding: 20px 0px;
     border-bottom: solid 2px #dddddd;
 }
 
